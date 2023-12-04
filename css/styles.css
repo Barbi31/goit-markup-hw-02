@@ -9,21 +9,21 @@
   --text-font-family: "Roboto", sans-serif;
   --logo-font-family: "Raleway", sans-serif;
 }
-.body-style {
+body {
   font-family: var(--text-font-family);
   color: var(--drak-grey)
-  background-color: var(--white-color);
-}
+  background-color: var(--white-color);}
+
 /* logo */
-.logo-link {
+.logo {
   font-family: var(--logo-font-family);
   color: var(--brand-color);
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text decoration: none;
 }
 .link {
     text-decoration: none;
