@@ -72,8 +72,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.address-style {
   font-style: normal;
-  
 }
 .address:hover,
 .address:focus {
@@ -112,7 +113,7 @@ body {
 }
 /* portfolio */
 .filter-button-list {
-  color: var(--brand-color);
+  color: var(--footer-white);
   background-color: var(--backround-white);
   font-size: 16px;
   font-style: normal;
@@ -145,8 +146,10 @@ body {
 color: var(--backround-white);
 }
 .white-backround-color-header {
+  background-color: var(--footer-white);
+}
+.backround-white { 
   background-color: var(--white-color);
-
 }
 
 .subtitle {
