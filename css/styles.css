@@ -39,6 +39,23 @@ body {
     text-decoration: none;
 }
 /* nav section */
+.nav-link {
+  color: var(--navy-blue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style: none;
+  text-decoration: none;
+  background-color: var(--backround-white);
+  border-color: var(--border-white);
+}
+.nav-link:hover, 
+.nav-link:focus {
+  color: var(--ocean-blue);
+  background-color: var(--ocean-blue);
+  border-color: rgba (0, 0, 0, 0);}
 .list {
   color: var(--navy-blue);
   font-size: 16px;
@@ -55,6 +72,7 @@ body {
   background-color: var(--ocean-blue);
   border-color: rgba (0, 0, 0, 0);
 }
+
 /* address section */
 .address-mail {
   color: var(--drak-grey);
