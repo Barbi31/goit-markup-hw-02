@@ -114,7 +114,7 @@ body {
 /* portfolio */
 .filter-button-list {
   color: var(--brand-color);
-  background-color: var(--backround-white);
+  background-color: var(--footer-white);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -125,7 +125,7 @@ body {
   list-style: none;
 }
 .filter-button-list:hover {
-  color: var(--footer-white);
+  color: var(--white-color);
   background-color: var(--ocean-blue);
 }
 .filter-button-list:focus {
