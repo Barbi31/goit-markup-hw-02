@@ -72,6 +72,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
+  
 }
 .address:hover,
 .address:focus {
@@ -112,7 +114,6 @@ body {
 .filter-button-list {
   color: var(--brand-color);
   background-color: var(--backround-white);
-v
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
