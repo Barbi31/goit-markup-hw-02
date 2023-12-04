@@ -7,6 +7,7 @@
   --border-white:#e7e9fc;
   --text-font-family: "Roboto", sans-serif;
   --logo-font-family: "Raleway", sans-serif;
+  --ocean-blue: #404bbf;
 }
 body {
   font-family: var(--text-font-family);
@@ -26,7 +27,7 @@ body {
 }
 .logo-link{
   font-family: var(--logo-font-family);
-  color: var(--navy-blue);
+  color: var(--brand-color);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -47,8 +48,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
-  text-decoration: none;
-  background-color: var(--backround-white);
+  background-color: var(--white-color);
   border-color: var(--border-white);
 }
 .nav-link:hover, 
@@ -66,13 +66,6 @@ body {
   list-style: none;
   text-decoration: none;
 }
-.list:hover,
-.list:focus {
-  color: var(--ocean-blue);
-  background-color: var(--ocean-blue);
-  border-color: rgba (0, 0, 0, 0);
-}
-
 /* address section */
 .address-mail {
   color: var(--drak-grey);
@@ -134,7 +127,7 @@ body {
 .filter-button-list:focus {
   color: var(--ocean-blue);
   background-color: var(--ocean-blue);
-  border-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0));
 }
 /* title, subtitle, content */
 .header {
