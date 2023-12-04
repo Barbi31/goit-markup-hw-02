@@ -113,7 +113,7 @@ body {
 }
 /* portfolio */
 .filter-button-list {
-  color: var(--footer-white);
+  color: var(--brand-color);
   background-color: var(--backround-white);
   font-size: 16px;
   font-style: normal;
@@ -125,7 +125,7 @@ body {
   list-style: none;
 }
 .filter-button-list:hover {
-  color: var(--white-color);
+  color: var(--footer-white);
   background-color: var(--ocean-blue);
 }
 .filter-button-list:focus {
